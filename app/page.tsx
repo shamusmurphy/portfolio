@@ -1,7 +1,7 @@
 'use client'
 
 import Image from 'next/image'
-import { Github, Linkedin, Mail, FileText, ExternalLink } from 'lucide-react'
+import { Github, Linkedin, Mail, FileText} from 'lucide-react'
 import { ThemeSwitcher } from '../components/lightdark'
 import { useEffect } from 'react'
 
@@ -58,7 +58,7 @@ export default function Portfolio() {
                   rel="noopener noreferrer"
                   className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 transition-colors"
                 >
-                  {/* @ts-expect-error Server Component */}
+                  {/* */}
 <FileText className="mr-2 h-4 w-4" />
                   View Full Resume
                 </a>

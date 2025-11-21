@@ -37,13 +37,13 @@ export default function Portfolio() {
             </div>
             <h1 className="mt-4 text-3xl font-bold text-center text-gray-900 dark:text-white">Shamus Murphy</h1>
             <p className="mt-2 max-w-2xl text-center text-xl text-gray-500 dark:text-gray-400 mx-auto">
-              Mathematics and Computer Science Student at University of Vermont
+              University of Vermont
             </p>
           </div>
           <div className="border-t border-gray-200 dark:border-gray-700 px-4 py-5 sm:px-6">
             <h2 className="text-lg font-medium text-gray-900 dark:text-white">About Me</h2>
             <p className="mt-1 text-sm text-gray-500 dark:text-gray-400">
-              I'm currently studying Math and Computer Science at UVM. In my free time, I love to ski, read, and play the piano. My main interests include cybersecurity especially differential privacy.
+              I'm currently studying Math and Computer Science at UVM. In my free time, I love to ski, read, and play the piano. My main interest is in Cybersecurity.
             </p>
           </div>
           <div className="border-t border-gray-200 dark:border-gray-700 px-4 py-5 sm:px-6">
@@ -60,9 +60,9 @@ export default function Portfolio() {
             <h2 className="text-lg font-medium text-gray-900 dark:text-white">Projects</h2>
             <ul className="mt-2 divide-y divide-gray-200 dark:divide-gray-700">
               {[
-                { name: 'RC Car', description: 'Built with a Raspberry Pi and Arduino using Python and C++' },
-                { name: 'Ski Resort Website', description: 'Created using HTML, CSS, PHP, and SQL' },
-                { name: 'Two Player Pong Game', description: 'Developed with Python using the Pygame module' }
+                { name: 'DP Neural Network', description: 'Created a neural network trained with DP-SGD on synthetic medical data' },
+                { name: 'Shape Sprint', description: 'Built a game using C++ that implements collision detection and physics' },
+                { name: 'RC Car', description: 'Built with a Raspberry Pi and Arduino using Python and C++' }
               ].map((project, index) => (
                 <li key={index} className="py-3">
                   <h3 className="text-sm font-medium text-gray-900 dark:text-white">{project.name}</h3>

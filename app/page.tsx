@@ -79,11 +79,11 @@ export default function Portfolio() {
             <h2 className="text-lg font-medium text-gray-900 dark:text-white mb-4">Skills</h2>
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              {/* Programming Languages [cite: 136] */}
+              {/* Programming Languages */}
               <div>
                 <h3 className="text-sm font-semibold text-gray-700 dark:text-gray-300 mb-2">Languages</h3>
                 <div className="flex flex-wrap gap-2">
-                  {['Python', 'R', 'C++', 'Java', 'MySQL'].map((skill) => (
+                  {['Python', 'R', 'C++', 'MySQL'].map((skill) => (
                     <span key={skill} className="bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 text-xs font-semibold px-2.5 py-0.5 rounded">
                       {skill}
                     </span>
@@ -91,11 +91,11 @@ export default function Portfolio() {
                 </div>
               </div>
 
-              {/* Concepts [cite: 137] */}
+              {/* Concepts */}
               <div>
                 <h3 className="text-sm font-semibold text-gray-700 dark:text-gray-300 mb-2">Concepts</h3>
                 <div className="flex flex-wrap gap-2">
-                  {['Algorithms & Complexity', 'Data Privacy', 'Numerical Methods', 'Machine Learning'].map((skill) => (
+                  {['Data Privacy', 'Data Science', 'Machine Learning'].map((skill) => (
                     <span key={skill} className="bg-purple-100 dark:bg-purple-900 text-purple-800 dark:text-purple-200 text-xs font-semibold px-2.5 py-0.5 rounded">
                       {skill}
                     </span>
@@ -103,11 +103,11 @@ export default function Portfolio() {
                 </div>
               </div>
 
-              {/* Tools/Frameworks [cite: 138] */}
+              {/* Tools/Frameworks */}
               <div className="md:col-span-2">
                 <h3 className="text-sm font-semibold text-gray-700 dark:text-gray-300 mb-2">Tools & Frameworks</h3>
                 <div className="flex flex-wrap gap-2">
-                  {['Git', 'Linux/CLI', 'PyTorch', 'Opacus', 'OpenGL', 'Unreal Engine'].map((skill) => (
+                  {['PyTorch', 'Opacus', 'Git', 'Linux/CLI', 'OpenGL'].map((skill) => (
                     <span key={skill} className="bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-200 text-xs font-semibold px-2.5 py-0.5 rounded">
                       {skill}
                     </span>
@@ -124,9 +124,9 @@ export default function Portfolio() {
               <span className="ml-2 text-xs bg-blue-600 text-white px-2 py-0.5 rounded-full">Active</span>
             </h2>
             <div className="mt-3">
-              <h3 className="text-sm font-medium text-gray-900 dark:text-white">Differential Privacy in Neural Networks</h3>
+              <h3 className="text-sm font-medium text-gray-900 dark:text-white">Differential Privacy</h3>
               <p className="mt-1 text-sm text-gray-500 dark:text-gray-400">
-                Investigating the application of DP-SGD (Differential Privacy Stochastic Gradient Descent) on synthetic medical data to train neural networks while preserving individual privacy. This aligns with my coursework in Data Privacy and Machine Learning Foundations.
+                Next semester I will be working on a research project involving differential privacy with a professor at UVM.
               </p>
             </div>
           </div>
@@ -143,12 +143,12 @@ export default function Portfolio() {
                 },
                 { 
                   name: 'RC Car Controller', 
-                  description: 'Built a remote-controlled car using Arduino and Raspberry Pi. Created a Flask-based web interface for live video streaming and motor control. [cite: 144, 145, 146]',
+                  description: 'Built a remote-controlled car using Arduino and Raspberry Pi. Created a Flask-based web interface for live video streaming and motor control.',
                   tags: ['Python', 'Flask', 'IoT', 'Hardware']
                 },
                 { 
                   name: 'Shape Sprint', 
-                  description: 'A rhythm-based game inspired by Geometry Dash developed using C++ and OpenGL. Implemented custom physics for gravity and collision detection. [cite: 140, 141, 142]',
+                  description: 'A rhythm-based game inspired by Geometry Dash developed using C++ and OpenGL. Implemented custom physics for gravity and collision detection.',
                   tags: ['C++', 'OpenGL', 'Game Dev']
                 },
               ].map((project, index) => (

@@ -70,7 +70,7 @@ export default function Portfolio() {
           <div className="border-t border-gray-200 dark:border-gray-700 px-4 py-5 sm:px-6">
             <h2 className="text-lg font-medium text-gray-900 dark:text-white">About Me</h2>
             <p className="mt-1 text-sm text-gray-500 dark:text-gray-400">
-              I'm currently studying Math and Computer Science at UVM. In my free time, I love to ski, read, and play the piano. My main interest is in Cybersecurity and Data Privacy.
+              I am currently studying Math and Computer Science at UVM. In my free time, I love to ski, read, and play the piano. My main interest is in Cybersecurity and Data Privacy.
             </p>
           </div>
 

@@ -1,6 +1,5 @@
 import React from 'react';
 
-  return (
     <div className="min-h-screen bg-gray-100 py-8">
       <div className="max-w-4xl mx-auto bg-white shadow-lg" style={{fontFamily: 'Times New Roman, serif', padding: '0.5in', minHeight: '11in', maxHeight: '11in'}}>
         {/* Header */}
@@ -113,5 +112,3 @@ import React from 'react';
         </div>
       </div>
     </div>
-  );
-}

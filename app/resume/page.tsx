@@ -18,7 +18,7 @@ export default function Resume() {
         
         {/* Header */}
         <div className="border-b-2 border-black pb-4 mb-6 text-center">
-          <h1 className="text-4xl font-bold tracking-wider uppercase mb-2">Shamus Murphy</h1>
+          <h1 className="text-4xl font-bold tracking-wider">Shamus Murphy</h1>
           <p className="text-sm font-medium">
             <a href="mailto:Shamus.Murphy@uvm.edu" className="hover:underline">Shamus.Murphy@uvm.edu</a>
             <span className="mx-2">•</span>

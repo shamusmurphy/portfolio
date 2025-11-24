@@ -20,7 +20,15 @@ export default function Resume() {
         <div className="border-b-2 border-black pb-4 mb-6 text-center">
           <h1 className="text-4xl font-bold tracking-wider uppercase mb-2">Shamus Murphy</h1>
           <p className="text-sm font-medium">
-            Shamus.Murphy@uvm.edu • LinkedIn • GitHub • Red Bank, NJ
+            <a href="mailto:Shamus.Murphy@uvm.edu" className="hover:underline">Shamus.Murphy@uvm.edu</a>
+            <span className="mx-2">•</span>
+            <a href="https://www.linkedin.com/in/shamus-murphy-0496032a8/" target="_blank" rel="noopener noreferrer" className="hover:underline">LinkedIn</a>
+            <span className="mx-2">•</span>
+            <a href="https://github.com/shamusmurphy" target="_blank" rel="noopener noreferrer" className="hover:underline">GitHub</a>
+            <span className="mx-2">•</span>
+            <a href="https://shamusmurphy.xyz" target="_blank" rel="noopener noreferrer" className="hover:underline">Portfolio</a>
+            <span className="mx-2">•</span>
+            Shrewsbury, NJ
           </p>
         </div>
 

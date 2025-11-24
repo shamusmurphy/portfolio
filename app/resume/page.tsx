@@ -1,10 +1,5 @@
 import React from 'react';
 
-export default function Resume() {
-  const handlePrint = () => {
-    window.print();
-  };
-
   return (
     <div className="min-h-screen bg-gray-100 py-8">
       <div className="max-w-4xl mx-auto bg-white shadow-lg" style={{fontFamily: 'Times New Roman, serif', padding: '0.5in', minHeight: '11in', maxHeight: '11in'}}>
@@ -98,7 +93,7 @@ export default function Resume() {
           
           <div className="mb-1">
             <div className="flex justify-between items-start">
-              <span className="font-bold text-xs">Bar Back — Rooney's Oceanfront Restaurant, Long Branch, NJ</span>
+              <span className="font-bold text-xs">Bar Back — Rooneys Oceanfront Restaurant, Long Branch, NJ</span>
               <span className="text-xs italic">Summer 2024–2025</span>
             </div>
             <ul className="list-disc ml-4 text-xs mt-0.5">
